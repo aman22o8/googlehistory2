@@ -91,10 +91,11 @@ class GoogleHistory extends Component {
 
   render() {
     const {initialSearch, initialHistory} = this.state
-
+    console.log(initialSearch)
     const searchableList = initialHistory.filter(each =>
       each.title.toLowerCase().includes(initialSearch.toLowerCase()),
     )
+    console.log(searchableList)
 
     return (
       <>
@@ -120,7 +121,7 @@ class GoogleHistory extends Component {
           </div>
         </div>
         <div className="footer_container">
-          {searchableList.length > 1 ? (
+          {searchableList.length > 0 ? (
             <ul className="list_container">
               {searchableList.map(each => (
                 <GoogleHistoryItem
