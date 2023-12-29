@@ -1,0 +1,45 @@
+.each_container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.left_right_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+}
+.left_container {
+  display: flex;
+  align-items: center;
+}
+.date_stamp {
+  font: normal normal 15px 'Roboto';
+  color: #475569;
+  margin-right: 27px;
+  width: 75px;
+}
+.site_logo {
+  height: 20px;
+  width: 20px;
+  margin-right: 27px;
+}
+.heading {
+  font: normal normal 600 18px 'Roboto';
+  color: #475569;
+  margin-right: 27px;
+}
+.domain_url {
+  font: normal normal 500 16px 'Roboto';
+  color: #64748b;
+}
+.delete_btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete_icon {
+  height: 15px;
+  width: 15px;
+}
